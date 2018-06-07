@@ -1,0 +1,74 @@
+# Requirments:
+        Python2.7version
+        Module -Tkinter,tkFileDialog,tkFont,tkMessaageBox
+        Installation:       Linux   :  sudo apt-get install python-tk
+                            Windows :  pip install Tkinter
+        all other modules are readily installed by Tkinter
+
+        special module out of Tkinter
+        Module - tkfontchooser
+        Installation:       Linux   : sudo apt-get install python-tkfontchooser
+                            Windows : pip install tkfontchooser
+# Created:
+        By       : Venkat
+        OnDate   : 27th May 2018
+        CodeBugs : known
+        Version  : 0.2 (alpha)
+        Release  : InDevelopment
+
+
+#Note:
+Greatly Created for Linux
+for Windows Change the curdir variable path to 'c:/'
+
+
+Bugs && Ideas:
+need to correct bol,italic,incfont,decfont shortcuts # completed
+need to set the current font-details    # added temperarily,to make as dict
+need to add more keyboard shortcuts     # in progress ctrl+a
+correct the paste method in class Test  # completed
+paste happens two times # solved because default one my genrated one
+add the number of column and row on status bar :) #completed
+should correct the functions copy paste defined globally #removed and placed in Test class,corrected
+should likely to add search option #not yet started
+should likely to add create file with a name directly # not yet started
+should add shortcut like increses font maxsize & minsize #completed
+should add bold,italic,overstike checkboxes on menu
+
+update:
+28th May 2018
+1.)added    ctrl+o open file
+            ctrl+s save file
+            ctrl+shift+s save as
+            ctrl+n new file
+            ctrl+v paste text (not working)
+            ctrl+x cut selected Text
+            ctrl+c copy selected Text
+keyboard shortcuts
+2.)Font Chooser is added
+
+29th May 2018
+added
+        ctrl+l clearscreen
+        ctrl+r and ctrl+R Redo --defaults
+        ctrl+z and ctrl+Z undo --defaults
+        ctrl+f and ctrl+F Font Chooser
+        ctrl + + inc font
+        ctrl + - dec font
+        ctrl + d toggle bold
+        ctrl + T toggle italic
+added scrollbar
+added status on present pointer line column
+added rightclick menu options
+added undo,redo support
+corrected pasting double times
+corrected copy all
+conclude:cut,copy,paste works well #$completed
+added status view on status bar
+added incresing font size && decressing,but +,-
+
+30th may 2018
+corrected Bugs
+corrected appearence
+incressed the way of using
+extra tkFont is added
