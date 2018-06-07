@@ -1,2 +1,2 @@
-# hello-world
-just knowing how to create repository
+# Text Editor 
+a simple Text Editor,using python tkinter
