@@ -79,14 +79,14 @@ class Test(Text):
         self.config(yscrollcommand = scrollbar.set)             # done
         scrollbar.pack(side = RIGHT , fill = Y)
     def inc_f_size(self,event = None):
-	    if self.cur_font_size >= 30:
-		          sreturn False
+	if self.cur_font_size >= 30:
+		return False
         self.cur_font_size += 1
         f = Font(size = self.cur_font_size,family = self.cur_font_fam,slant = self.cur_font_slant,weight =self.cur_font_weight,underline = 0 if self.cur_font_under == "normal" else 1,overstrike= 0 if self.cur_font_overstrike == "normal" else 1)
         self.configure(font = f)
     def dec_f_size(self,event = None):
-	    if self.cur_font_size <= 6:
-		          return
+	if self.cur_font_size <= 6:
+		return
         self.cur_font_size -= 1
         f = Font(size = self.cur_font_size,family = self.cur_font_fam,slant = self.cur_font_slant,weight =self.cur_font_weight,underline=0 if self.cur_font_under == "normal" else 1,overstrike= 0 if self.cur_font_overstrike=="normal"else 1)
         self.configure(font = f)
